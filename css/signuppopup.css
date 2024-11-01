@@ -1,0 +1,250 @@
+.signup-popup{display:none; position:absolute;   background: none repeat scroll 0 0 rgba(51, 51, 51, 0.3);  height: 502px;
+
+    left: 203.5px;
+
+    top: 5px;
+
+    width: 922px;}
+
+	
+
+#signup-popup{
+
+     background: none repeat scroll 0 0 #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+
+    border-radius: 12px;
+
+    box-shadow: 0 0 19px #474747;
+
+    display: none;
+
+    font-size: 15px;
+
+    height: 400px;
+
+    left: 15%;
+
+    padding: 15px;
+
+    position: fixed;
+
+    top: 115px;
+
+    width: 69%;
+
+    z-index: 1005;
+
+	
+
+}
+
+.button-signup-div{
+
+text-align: center;
+
+}
+
+.button-signup{
+
+	
+
+	color: green;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    border: 0 none ;
+
+    height: 40px;
+
+    width: 221px;
+
+}
+
+a{ 
+
+cursor: pointer; 
+
+text-decoration:none; 
+
+}
+
+
+
+
+
+.shield {
+
+    background: none repeat scroll 0 0 #333333;
+
+    height: 100%;
+
+    left: 0;
+
+   
+
+    top: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+
+}
+
+/* This is for the positioning of the Close Link */
+
+#popupBoxClose {
+
+    font-size:20px;  
+
+    line-height:15px;  
+
+    right:5px;  
+
+    top:5px;  
+
+    position:absolute;  
+
+    color:#6fa5e2;  
+
+    font-weight:500;     
+
+	background:url(images/popupclose.png);
+
+	height: 25px;
+
+	width: 27px; 
+
+}
+
+.signup-content
+
+{
+
+	background:#FFFFFF;
+
+	
+
+}
+
+.signup-content .lable{
+
+	float:left;
+
+	width:15%;
+
+	padding-top:8px;
+
+	
+
+}
+
+.signup-content #user-email{
+
+width:95%;
+
+}
+
+.signup-content #user-mobile
+
+{
+
+	width: 95%;
+
+}
+
+
+
+.popup-ragister-form{
+
+width:56%;
+
+float:left;
+
+}
+
+.offer-div{
+
+width:38%;
+
+float:left;
+
+}
+
+.filde-row
+
+{
+
+	 height: 44px;
+
+    margin-top: 12px;
+
+    width: 98%;
+
+}
+
+.offer-txt
+
+{
+
+	padding-top:8px;
+
+}
+
+.offer-div img{
+
+height: 400px;
+
+}
+
+.text-field{
+
+	float: left;
+
+    width: 85%;
+
+}
+
+#user-last-name{ width: 46%;}
+
+#user-first-name{float: left; width: 45%;}
+
+#user-password{float: left; width: 45%; }
+
+#confirem-user-password{ width: 46%; }
+
+#signup-text{ color:#D41F00 !important;}
+
+.sign-title{ width:30%; float:left;}
+
+.alread-ragister{ width:50%; float:right;  margin-top: 20px;}
+
+.titledive{ border-bottom:1px solid #EEEEEE; margin-top:0px !important;}
+
+#resorce-error{
+    background: none repeat scroll 0 0 #ff0000;
+    border-radius: 10px;
+    color: #ffffff;
+    display: none;
+    height: 31px;
+    padding: 12px 0 0 19px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 95%;
+}
+#resorce-info{
+    background: none repeat scroll 0 0 #7AD03A;
+    border-radius: 10px;
+    color: #ffffff;
+    display: none;
+    height: 31px;
+    padding: 12px 0 0 19px;    
+    vertical-align: middle;
+    width: 95%;
+}
+.wc-signup-main{ list-style:none;}
+.wc-signup-main li{ list-style:none;}
+.wc-signup-main li #signup-text{ color:#096 !important; font-weight:bold;}
